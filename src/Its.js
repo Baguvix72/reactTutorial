@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
 
 class Its extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to hell!!!</h1>
-        </header>
+      <div className="header">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Fluid jumbotron</h1>
+              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+          </div>
         <p className="App-intro">
           Its aaalive!.
         </p>
