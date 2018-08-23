@@ -11,7 +11,7 @@ class Its extends Component {
           <h1 className="App-title">Welcome to hell!!!</h1>
         </header>
         <p className="App-intro">
-          To get started, kill ALL!!!.
+          Its aaalive!.
         </p>
       </div>
     );
