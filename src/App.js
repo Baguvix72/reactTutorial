@@ -5,13 +5,14 @@ import Foot from './Foot';
 
 class App extends Component {
   render() {
+    const {cnts} = this.props;
     return (
       <div className="App">
         <Head />
         <CardDeck />
         <CardDeck />
         <CardDeck />
-        <Foot />
+        <Foot cnts = { cnts } />
       </div>
     );
   }

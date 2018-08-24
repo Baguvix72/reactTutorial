@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Head extends Component {
-  render() {
+function Head() {
     return (
       <div className="head">
         <div class="container mt-2">
@@ -14,7 +13,6 @@ class Head extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Head;
