@@ -4,7 +4,7 @@ import CardFoot from "./CardFoot";
 function Foot({ cnts }) {
     return (
       <div className="foot">
-        <div class="container mt-1">
+        <div class="container">
           <div class="jumbotron jumbotron-fluid rounded border border-dark">
             <div class="container">
               <div class="row">

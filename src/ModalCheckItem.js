@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CheckItem({ name }, { check }) {
+function CheckItem({ name }) {
     return (
         <div className="check text-left">
         <label class="form-check-label" for="defaultCheck1">
