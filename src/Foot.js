@@ -4,8 +4,8 @@ import CardFoot from "./CardFoot";
 function Foot({ cnts }) {
     return (
       <div className="foot">
-        <div class="container mt-2">
-          <div class="jumbotron jumbotron-fluid">
+        <div class="container mt-1">
+          <div class="jumbotron jumbotron-fluid rounded border border-dark">
             <div class="container">
               <div class="row">
                 <CardFoot cnt = { cnts[0] } />

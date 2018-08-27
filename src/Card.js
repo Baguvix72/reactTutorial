@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
+import ModalWindow from './ModalWindow';
 
 class Card extends Component {
   render() {
+    const {srvc} = this.props;
     return (
-      <div class="card text-center">
+      <div class="card text-center bg-light">
         <div class="card-header">
-          Featured
+        <h5 class="card-title">{srvc.name}</h5>
         </div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">{srvc.discription}</p>
         </div>
         <div class="card-footer text-muted">
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Мне это интересно!
+          </button>
         </div>
+        <ModalWindow />
       </div>
     );
   }

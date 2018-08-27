@@ -3,12 +3,15 @@ import Card from './Card'
 
 class CardDeck extends Component {
   render() {
+    const {srvc} = this.props;
+    const cardArr = [];
+    for (let i = 0; i < srvc.length; i++) {
+      cardArr.push(<Card srvc = { srvc[i] } />)      
+    }
     return (
-      <div class="container mt-2">
+      <div className="container mt-2">
         <div className="card-deck">
-          <Card />
-          <Card />
-          <Card />
+          {cardArr}
         </div>
       </div>
     );
