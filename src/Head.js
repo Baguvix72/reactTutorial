@@ -6,8 +6,8 @@ function Head() {
         <div class="container">
           <div class="jumbotron jumbotron-fluid text-center rounded border border-dark">
               <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <h1 class="display-4">Заголовок</h1>
+                <p class="lead">Да, я очень оригинален</p>
               </div>
           </div>
         </div>
